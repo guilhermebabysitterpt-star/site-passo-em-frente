@@ -9,14 +9,14 @@ HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="pt-PT">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0RKTGZ9XBV"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H0ZYDH9HHG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'G-0RKTGZ9XBV');
-    </script>
+  gtag('config', 'G-H0ZYDH9HHG');
+</script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -353,4 +353,5 @@ def sobre_mim():
     return render_template_string(SOBRE_TEMPLATE)
 
 if __name__ == '__main__':
+
     app.run(debug=True)
