@@ -164,7 +164,7 @@ HTML_TEMPLATE = """
     <div class="pricing-grid">
         <div class="price-card">
             <h3>Essencial</h3>
-            <div class="price">3€ <span>/ hora</span></div>
+            <div class="price">5€ <span>/ hora</span></div>
             <ul class="price-list">
                 <li><i class="fas fa-check"></i> Babysitting Básico</li>
                 <li><i class="fas fa-check"></i> Vigilância em Brincadeiras</li>
@@ -178,7 +178,7 @@ HTML_TEMPLATE = """
         <div class="price-card featured">
             <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--orange); color: white; padding: 5px 15px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">MAIS POPULAR</div>
             <h3>Educação</h3>
-            <div class="price">4€ <span>/ hora</span></div>
+            <div class="price">10€ <span>/ hora</span></div>
             <ul class="price-list">
                 <li><i class="fas fa-check"></i> Babysitting Completo</li>
                 <li><i class="fas fa-check"></i> <b>Apoio Escolar (TPC)</b></li>
@@ -190,7 +190,7 @@ HTML_TEMPLATE = """
 
         <div class="price-card">
             <h3>Noite / Fim de Semana</h3>
-            <div class="price">5€ <span>/ hora</span></div>
+            <div class="price">15€ <span>/ hora</span></div>
             <ul class="price-list">
                 <li><i class="fas fa-check"></i> Período Noturno </li>
                 <li><i class="fas fa-check"></i> Sábados e Domingos</li>
@@ -355,3 +355,4 @@ def sobre_mim():
 if __name__ == '__main__':
 
     app.run(debug=True)
+
