@@ -178,7 +178,7 @@ HTML_TEMPLATE = """
         <div class="price-card featured">
             <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--orange); color: white; padding: 5px 15px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">MAIS POPULAR</div>
             <h3>Educação</h3>
-            <div class="price">12€ <span>/ hora</span></div>
+            <div class="price">10€ <span>/ hora</span></div>
             <ul class="price-list">
                 <li><i class="fas fa-check"></i> Babysitting Completo</li>
                 <li><i class="fas fa-check"></i> <b>Apoio Escolar (TPC)</b></li>
