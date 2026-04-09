@@ -190,7 +190,7 @@ HTML_TEMPLATE = """
 
         <div class="price-card">
             <h3>Noite / Fim de Semana</h3>
-            <div class="price">12€ <span>/ hora</span></div>
+            <div class="price">10€ <span>/ hora</span></div>
             <ul class="price-list">
                 <li><i class="fas fa-check"></i> Período Noturno </li>
                 <li><i class="fas fa-check"></i> Sábados e Domingos</li>
